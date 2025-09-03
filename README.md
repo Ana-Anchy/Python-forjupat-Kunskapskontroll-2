@@ -65,6 +65,8 @@ The process automates data ingestion, transformation, storage in **SQLite**, and
 
 ### 📊 Example Visualizations  
 
+
+
 **Total ads over time with forecast:**  
 ![forecast_total_next7](reports/forecast_total_next7.png)  
 
@@ -76,6 +78,7 @@ The process automates data ingestion, transformation, storage in **SQLite**, and
 
 **7-day forecast – Top occupations:**  
 ![forecast_top_occ_7d](reports/forecast_top_occ_7d.png)  
+
 
 ---
 
