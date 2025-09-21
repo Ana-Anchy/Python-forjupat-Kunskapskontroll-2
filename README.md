@@ -63,21 +63,20 @@ The process automates data ingestion, transformation, storage in **SQLite**, and
 
 ---
 
-### 📊 Example Visualizations  
-
-
+## 📊 Example Visualizations
 
 **Total ads over time with forecast:**  
-![forecast_total_next7](reports/forecast_total_next7.png)  
+![Total ads over time with forecast](reports/forecast_total_next7.png)
 
 **Top-10 occupational groups:**  
-![top10_occupations](reports/top10_occupations.png)  
+![Top-10 occupational groups](reports/top10_occupations.png)
 
 **Occupation × County heatmap:**  
-![heatmap_occupations_by_county](reports/heatmap_occupations_by_county.png)  
+![Occupation × County heatmap](reports/heatmap_occupations_by_county.png)
 
 **7-day forecast – Top occupations:**  
-![forecast_top_occ_7d](reports/forecast_top_occ_7d.png)  
+![7-day forecast – Top occupations](reports/forecast_top_occ_7d.png)
+
 
 
 ---
