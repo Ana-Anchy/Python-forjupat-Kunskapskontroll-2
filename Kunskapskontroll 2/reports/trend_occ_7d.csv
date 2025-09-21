@@ -1,0 +1,406 @@
+﻿occupation_group,start,end,delta,pct
+Account manager/AM,5,16,11,2.2
+Eventsäljare/Eventförsäljare,0,8,8,1.0
+Telefonförsäljare,5,11,6,1.2
+Bensinstationsbiträde/Servicebiträde,0,3,3,1.0
+Taxiförare/Taxichaufför,0,3,3,1.0
+Fordonstekniker/Bilmekaniker/Personbilsmekaniker,0,2,2,1.0
+Akutsjuksköterska,0,2,2,1.0
+Besöksbokare/Kundbokare,0,1,1,1.0
+"Civilingenjör, tillverkningsindustri",0,1,1,1.0
+Plattsättare,0,1,1,1.0
+Pizzabagare,0,1,1,1.0
+Grillbiträde/Gatuköksbiträde,0,1,1,1.0
+Marknadsassistent,0,1,1,1.0
+Köksbiträde,1,2,1,1.0
+Systemsäljare,0,1,1,1.0
+"Verksamhetschef, hälso- och sjukvård",0,0,0,
+"Projekteringsingenjör, maskin",0,0,0,
+"Projektledare, el",0,0,0,
+"Projektledare: kultur, media, film",0,0,0,
+"Avsynare, metallprodukter",0,0,0,
+Avlöningskontorist,0,0,0,
+Arkivkanslist,0,0,0,
+Arkivarie,0,0,0,
+Biomedicinsk analytiker/BMA,0,0,0,
+Biolog,0,0,0,
+Bilbärgare,0,0,0,
+Butiksansvarig,0,0,0,
+Chief Information Officer/CIO/IT-chef,0,0,0,
+CNC-operatör/FMS-operatör,0,0,0,
+Bartender,0,0,0,
+Cirkelledare/Studiecirkelledare,0,0,0,
+Begravningsrådgivare,0,0,0,
+Byggnadsingenjör,0,0,0,
+"Trafikplanerare, offentlig förvaltning",0,0,0,
+Bolagsjurist,0,0,0,
+Rekryterare/Rekryteringskonsult,0,0,0,
+Redovisningschef,0,0,0,
+Renhållningsförare,0,0,0,
+SQE Supplier Quality Engineer,0,0,0,
+Servicehandläggare,0,0,0,
+"Servicetekniker, elkraft",0,0,0,
+Samhällsplanerare,0,0,0,
+"Sektionschef, offentlig förvaltning",0,0,0,
+Säkerhetsrådgivare,0,0,0,
+Datapedagog/IT-pedagog/Datautbildare,0,0,0,
+Tandläkare,0,0,0,
+Technical Operation Manager/TOM,0,0,0,
+Terminalarbetare,0,0,0,
+Redovisningsassistent,0,0,0,
+Bovärd/Fastighetsvärd/Husvärd,0,0,0,
+Bussförare/Busschaufför,0,0,0,
+Trafikingenjör,0,0,0,
+Trafikinformatör,0,0,0,
+Testledare,0,0,0,
+"Drifttekniker, data",0,0,0,
+"Civilingenjör, kvalitet, elektronik",0,0,0,
+"Civilingenjör, maskin",0,0,0,
+"Civilingenjör, kemi",0,0,0,
+"Civilingenjör, el-tele",0,0,0,
+"Civilingenjör, systemutveckling",0,0,0,
+"Civilingenjör, produktion, elektronik",0,0,0,
+Databasadministratör,0,0,0,
+Dataingenjör,0,0,0,
+"Personbilsförare, persontransporter",0,0,0,
+Personalchef/HR-chef,0,0,0,
+Pistmaskinförare,0,0,0,
+Personligt ombud,0,0,0,
+"Producent: kultur, media, film",0,0,0,
+"Produktchef, marknadsföring",0,0,0,
+Musikpedagog/Musiklärare,0,0,0,
+"Mätningstekniker, bygg",0,0,0,
+Officer,0,0,0,
+Enhetschef inom social omsorg,0,0,0,
+Enhetschef inom socialtjänst,0,0,0,
+"Enhetschef, offentlig förvaltning",0,0,0,
+"Receptionist, telefonist",0,0,0,
+Verkstadschef,0,0,0,
+Verkställande direktör/VD,0,0,0,
+"Väg- och anläggningsarbetare, utan yrkesbevis",0,0,0,
+Accounting controller,0,0,0,
+Administrativ assistent,0,0,0,
+Administrativ utvecklare,0,0,0,
+Verksamhetsanalytiker,0,0,0,
+"Driftingenjör, vattenverk",0,0,0,
+Driftelektriker,0,0,0,
+"Djurskötare, mjölk",0,0,0,
+"Djurskötare, fjäderfä",0,0,0,
+Distributionsförare,0,0,0,
+Diskare,0,0,0,
+Designer,0,0,0,
+Designassistent,0,0,0,
+Elevassistent,0,0,0,
+Elkonstruktör,0,0,0,
+"Områdeschef, äldre- och handikappomsorg",0,0,0,
+Orderadministratör,0,0,0,
+Orderplanerare,0,0,0,
+Fordonslackerare,0,0,0,
+Folkhälsoutvecklare,0,0,0,
+"Fastighetstekniker/Drifttekniker, fastighet",0,0,0,
+Mediasäljare,1,1,0,0.0
+"Metodanalytiker, IT",0,0,0,
+Fysiker,0,0,0,
+Frontend-utvecklare,0,0,0,
+Företagsrådgivare,0,0,0,
+Företagssjuksköterska/Företagssköterska,0,0,0,
+Förrådschef,0,0,0,
+Fysioterapeut/Sjukgymnast,0,0,0,
+Församlingsdiakon,0,0,0,
+Försäljningsassistent,0,0,0,
+Familjebehandlare,0,0,0,
+Familjerådgivare/Familjeterapeut,0,0,0,
+Fastighetsingenjör,0,0,0,
+EU-handläggare,0,0,0,
+Ekonomichef,0,0,0,
+Fjärrbilsförare,0,0,0,
+Modersmålslärare/Modersmålspedagog,0,0,0,
+Miljösamordnare/Miljökoordinator,0,0,0,
+Miljöingenjör,0,0,0,
+Montör träprodukter,0,0,0,
+"Lärare i grundskolan, årskurs 7-9",0,0,0,
+Lärare i gymnasiet - yrkesämnen,0,0,0,
+"Lärare i grundskolan, årskurs 1-3",0,0,0,
+"Montör, el- och teleutrustning",0,0,0,
+Löneadministratör,0,0,0,
+Lärare i musik- och kulturskolan,0,0,0,
+GIS-utvecklare,0,0,0,
+"Golvbeläggningsarbetare, industri",0,0,0,
+HR-specialist/HR-advisor,0,0,0,
+Helpdesktekniker/Supporttekniker,0,0,0,
+Hemförsäljare,0,0,0,
+"Lärare i grundskolan, årskurs 4-6",0,0,0,
+Hotellvärd/Hotellvärdinna,0,0,0,
+Hudterapeut,0,0,0,
+Frisör,0,0,0,
+Fotograf,0,0,0,
+Frivårdsinspektör,0,0,0,
+Infrastrukturarkitekt,0,0,0,
+Stensättare,0,0,0,
+Fritidsledare,0,0,0,
+Städare/Lokalvårdare,0,0,0,
+"Svetsare, manuell",0,0,0,
+Systemarkitekt,0,0,0,
+Systemadministratör,0,0,0,
+Systemförvaltare,1,1,0,0.0
+Ortodontiassistent,0,0,0,
+Paketbilsförare,0,0,0,
+Elektromekaniker,0,0,0,
+Försäljningschef,2,2,0,0.0
+Säkerhetschef,0,0,0,
+Systemtestare,0,0,0,
+Key account manager/KAM,0,0,0,
+IT-arkitekt/Lösningsarkitekt,0,0,0,
+IT-samordnare,0,0,0,
+Komminister,0,0,0,
+Kock storhushåll,0,0,0,
+Industridesigner,0,0,0,
+Industrirörmontör,0,0,0,
+Informationsassistent,0,0,0,
+Marknadschef,0,0,0,
+"Maskinförare, lantbruk/Traktorförare, lantbruk",0,0,0,
+"Maskinoperatör, ytbehandling",0,0,0,
+IT-strateg,0,0,0,
+Hälsopedagog,0,0,0,
+Skidliftvärd,0,0,0,
+Skolbibliotekarie,0,0,0,
+Skolsköterska,0,0,0,
+Skolpsykolog,0,0,0,
+Skräddare,0,0,0,
+Socioterapeut,0,0,0,
+Specialkock,0,0,0,
+Specialpedagog,0,0,0,
+Krossverksmaskinist,0,0,0,
+Kvalitetsbedömare livsmedel,0,0,0,
+Kvalitetschef,0,0,0,
+"Kvalitetsingenjör, maskin/Kvalitetstekniker, maskin",0,0,0,
+Kyl- och värmepumpstekniker,0,0,0,
+Kylmontör/Kyltekniker,0,0,0,
+Maskinställare,0,0,0,
+IT-tekniker/Datatekniker,0,0,0,
+Intensivvårdssjuksköterska,0,0,0,
+"Inspektör, Polisen",0,0,0,
+Kallskänka,0,0,0,
+Isoleringsplåtslagare,0,0,0,
+Lagerarbetare,0,0,0,
+Larminstallatör/Larmtekniker,0,0,0,
+Lastmaskinförare,0,0,0,
+Juridisk ombudsman,0,0,0,
+Logistiker,0,0,0,
+Lokreparatör,0,0,0,
+Läkarsekreterare/Vårdadmin/Medicinsk sekreterare,0,0,0,
+Läkare,0,0,0,
+Lärarassistent,0,0,0,
+Kontrollingenjör,0,0,0,
+Kravanalytiker,0,0,0,
+Kassaledare butik,0,0,0,
+Vårdutvecklare,0,0,0,
+"Arbetsledare, elkraft",0,0,0,
+Uthyrare,0,0,0,
+"Arbetsledare, lager",0,0,0,
+"Utvecklingsingenjör, maskin",0,0,0,
+VD-sekreterare,0,0,0,
+Barista/Kaffebartender,0,0,0,
+Utvecklingschef,0,0,0,
+Barnflicka/Barnvakt,0,0,0,
+Transportsamordnare,0,0,0,
+"Underhållsarbetare, bygg och anläggning",0,0,0,
+Trädgårdsarbetare,0,0,0,
+"Undersköterska, hemtjänst och äldreboende",0,0,0,
+Universitets- och högskolelektor,0,0,0,
+Utbildningsadministratör/Utbildningssekreterare,0,0,0,
+Utbildningsledare,0,0,0,
+Utbildningschef,1,0,-1,-1.0
+Upphandlare,1,0,-1,-1.0
+Ungdomsinstruktör/Ungdomstränare,1,0,-1,-1.0
+Underhållsmekaniker,1,0,-1,-1.0
+"Träarbetare, utan yrkesbevis/Snickare, utan yrkesbevis",1,0,-1,-1.0
+Barnmorska,1,0,-1,-1.0
+"Arbetsledare, trädgård/Trädgårdsanläggningsförman",1,0,-1,-1.0
+"Arbetsledare, husbyggnad",1,0,-1,-1.0
+"Arbetsledare, anläggning",1,0,-1,-1.0
+Arbetsledare städ,1,0,-1,-1.0
+Anestesisjuksköterska,1,0,-1,-1.0
+Anbudsansvarig/Bid Manager,1,0,-1,-1.0
+Affärsjurist,1,0,-1,-1.0
+Advokat,1,0,-1,-1.0
+Kriminalvårdare,1,0,-1,-1.0
+Kontakttolk/Dialogtolk,1,0,-1,-1.0
+Ledsagare,1,0,-1,-1.0
+Larmoperatör,1,0,-1,-1.0
+LSS-handläggare,1,0,-1,-1.0
+Köksmästare,1,0,-1,-1.0
+"Jurist, allmän domstol",1,0,-1,-1.0
+Installationselektriker,1,0,-1,-1.0
+Kvalitetssamordnare/Kvalitetskoordinator,1,0,-1,-1.0
+"Kundmottagare, bilverkstad/Verkmästare, bilverkstad",1,0,-1,-1.0
+Skidliftskötare,1,0,-1,-1.0
+Skidinstruktör/Skidlärare,1,0,-1,-1.0
+Maskinmontör industrimaskiner,1,0,-1,-1.0
+Informationschef/Kommunikationschef,1,0,-1,-1.0
+Idrottsplatschef,1,0,-1,-1.0
+Idrottspedagog,1,0,-1,-1.0
+Idrottsinstruktör/Idrottstränare,1,0,-1,-1.0
+Kassapersonal,1,0,-1,-1.0
+Systemanalytiker/Systemutredare,1,0,-1,-1.0
+Stödpedagog,1,0,-1,-1.0
+Studie- och yrkesvägledare/SYV,1,0,-1,-1.0
+Inköpare,1,0,-1,-1.0
+Informatör/Kommunikatör,1,0,-1,-1.0
+Husmontör,1,0,-1,-1.0
+Hotellreceptionist,1,0,-1,-1.0
+HR-konsult/PA-konsult,1,0,-1,-1.0
+"Grundlärare, förskoleklass och 1-3",1,0,-1,-1.0
+Manager,1,0,-1,-1.0
+Molekylärbiolog,1,0,-1,-1.0
+Miljöingenjör/Miljövårdsingenjör,1,0,-1,-1.0
+Miljöhandläggare,1,0,-1,-1.0
+Fartygsbefäl,1,0,-1,-1.0
+Företagskonsult,1,0,-1,-1.0
+Föredragande/Beredningsjurist,1,0,-1,-1.0
+Fysioterapeut,1,0,-1,-1.0
+Miljö- och klimatstrateg,1,0,-1,-1.0
+Medicinsk sekreterare,1,0,-1,-1.0
+Massör/Massageterapeut,1,0,-1,-1.0
+Pedagogassistent,1,0,-1,-1.0
+Parkeringsvakt,1,0,-1,-1.0
+Park- och trädgårdsarbetare,1,0,-1,-1.0
+Optiker/Optometrist,1,0,-1,-1.0
+Operatör läkemedelstillverkning,1,0,-1,-1.0
+Omsorgschef,1,0,-1,-1.0
+Elmontör,1,0,-1,-1.0
+Elektronikmontör,1,0,-1,-1.0
+Elektronikkonstruktör,1,0,-1,-1.0
+Flygingenjör,1,0,-1,-1.0
+Finmekaniker,1,0,-1,-1.0
+Fastighetsmäklare,1,0,-1,-1.0
+"Driftchef, energi",1,0,-1,-1.0
+"Driftchef, data",1,0,-1,-1.0
+"Drift- och underhållsingenjör, anläggning",1,0,-1,-1.0
+Diversearbetare,1,0,-1,-1.0
+Enhetschef inom social omsorg/Föreståndare inom social omsorg,1,0,-1,-1.0
+Målare,1,0,-1,-1.0
+Processoperatör kemisk industri,1,0,-1,-1.0
+"Processingenjör, maskin",1,0,-1,-1.0
+"Platschef, anläggning",1,0,-1,-1.0
+Personlig tränare/PT,1,0,-1,-1.0
+Cykel- och mopedreparatör,1,0,-1,-1.0
+Controller,1,0,-1,-1.0
+"Civilingenjör, produktion, maskin",1,0,-1,-1.0
+"Civilingenjör, kvalitet, elkraft",1,0,-1,-1.0
+"Civilingenjör, byggnadskonstruktion",1,0,-1,-1.0
+"Drifttekniker, förbränningsstation",1,0,-1,-1.0
+Trafikkoordinator,1,0,-1,-1.0
+Testledare/QA lead,1,0,-1,-1.0
+Teletekniker,1,0,-1,-1.0
+Teknikinformatör,1,0,-1,-1.0
+Tandhygienist,1,0,-1,-1.0
+Departementssekreterare,1,0,-1,-1.0
+Personaladministratör,1,0,-1,-1.0
+"Servicetekniker, elektronik",1,0,-1,-1.0
+Röntgensjuksköterska,1,0,-1,-1.0
+Restaurangchef,1,0,-1,-1.0
+Restaurangbiträde,1,0,-1,-1.0
+Rektor,1,0,-1,-1.0
+Redovisningsekonom,1,0,-1,-1.0
+CNC-operatör,1,0,-1,-1.0
+Byggledare,1,0,-1,-1.0
+"Butikssäljare, fackhandel",2,1,-1,-0.5
+Backend-utvecklare,1,0,-1,-1.0
+"Avdelningschef, statlig",1,0,-1,-1.0
+Avdelningschef butik,1,0,-1,-1.0
+Automationselektriker,1,0,-1,-1.0
+Bohags- och flyttbilsförare,1,0,-1,-1.0
+Biträdande butikschef,1,0,-1,-1.0
+Biståndsbedömare/Biståndshandläggare,1,0,-1,-1.0
+Bibliotekarie,1,0,-1,-1.0
+Betongarbetare,1,0,-1,-1.0
+"Produktionstekniker, petroleumutvinning",1,0,-1,-1.0
+"Produktionsledare, tillverkningsindustri",1,0,-1,-1.0
+"Produktionsingenjör, maskin",1,0,-1,-1.0
+Vårdbiträde,1,0,-1,-1.0
+Väg- och vattenbyggnadsingenjör,1,0,-1,-1.0
+VVS-montör,2,1,-1,-0.5
+Administrativ chef,1,0,-1,-1.0
+Ändringsskräddare,1,0,-1,-1.0
+Apotekschef,2,0,-2,-1.0
+Servitör/Servitris,2,0,-2,-1.0
+Vårdare/Arbetshandledare/Boendestödjare,2,0,-2,-1.0
+"Servicetekniker, maskin",2,0,-2,-1.0
+Receptionist,2,0,-2,-1.0
+Jobbcoach/Utbildningscoach,2,0,-2,-1.0
+Kafébiträde/Konditoribiträde,2,0,-2,-1.0
+Inköpsassistent,2,0,-2,-1.0
+Kock à la carte,2,0,-2,-1.0
+Skolkurator,2,0,-2,-1.0
+Souschef,2,0,-2,-1.0
+Speciallärare,2,0,-2,-1.0
+"Maskinoperatör, mekanisk verkstad",2,0,-2,-1.0
+Montör metallprodukter,2,0,-2,-1.0
+Löneadministratör/Lönekonsult,2,0,-2,-1.0
+Mjukvaruutvecklare,2,0,-2,-1.0
+"Platschef, bygg",2,0,-2,-1.0
+"Ämneslärare, 7-9",2,0,-2,-1.0
+"Automationstekniker, el",2,0,-2,-1.0
+"Automationsingenjör, maskin",2,0,-2,-1.0
+Bagare/Konditor,2,0,-2,-1.0
+Brandman,2,0,-2,-1.0
+Butiksdemonstratör,2,0,-2,-1.0
+Budbilsförare,2,0,-2,-1.0
+Butikschef,2,0,-2,-1.0
+Entreprenadingenjör,2,0,-2,-1.0
+Distriktssköterska,2,0,-2,-1.0
+Doktorand,2,0,-2,-1.0
+"Enhetschef, hälso- och sjukvård",3,1,-2,-0.6666666666666666
+Kurator,2,0,-2,-1.0
+Innesäljare,5,3,-2,-0.4
+Kontorsreceptionist,2,0,-2,-1.0
+"Konstruktör, tillverkningsindustri",2,0,-2,-1.0
+Barnsjuksköterska,2,0,-2,-1.0
+Ekonomiassistent,2,0,-2,-1.0
+Fastighetsförvaltare,2,0,-2,-1.0
+Fastighetsskötare,2,0,-2,-1.0
+"Forskare, IT",2,0,-2,-1.0
+"Undersköterska, vård- och specialavdelning och mottagning",3,0,-3,-1.0
+Behandlingsassistent/Socialpedagog,3,0,-3,-1.0
+Teamledare,3,0,-3,-1.0
+"Produktionstekniker, maskin/Produktionstekniker, verkstad",3,0,-3,-1.0
+Ventilationstekniker,3,0,-3,-1.0
+Psykiatrisjuksköterska,3,0,-3,-1.0
+Administratör,3,0,-3,-1.0
+Barista,3,0,-3,-1.0
+Barnvakt,3,0,-3,-1.0
+Lärare i fritidshem/Fritidspedagog,3,0,-3,-1.0
+"Projektledare, bygg och anläggning",3,0,-3,-1.0
+Operationssjuksköterska,3,0,-3,-1.0
+"Grundlärare, 4-6",3,0,-3,-1.0
+Larmtekniker,3,0,-3,-1.0
+Modersmålslärare i grundskolan,3,0,-3,-1.0
+Stödassistent,3,0,-3,-1.0
+Kundtjänstmedarbetare,4,0,-4,-1.0
+"Serviceelektriker, installation",4,0,-4,-1.0
+Socionom,4,0,-4,-1.0
+Barnskötare,4,0,-4,-1.0
+Träarbetare/Snickare,4,0,-4,-1.0
+Däckmontör,4,0,-4,-1.0
+Geriatriksjuksköterska,4,0,-4,-1.0
+Förskollärare,4,0,-4,-1.0
+Psykolog,5,0,-5,-1.0
+Lärare i gymnasieskolan,5,0,-5,-1.0
+Truckförare,5,0,-5,-1.0
+Systemutvecklare/Programmerare,5,0,-5,-1.0
+Specialistläkare,5,0,-5,-1.0
+Arbetsterapeut,5,0,-5,-1.0
+Utesäljare,9,3,-6,-0.6666666666666666
+Personbilsmekaniker,6,0,-6,-1.0
+"Projektledare, IT",6,0,-6,-1.0
+"Undersköterska, hemtjänst, äldreboende och habilitering",7,0,-7,-1.0
+Socialsekreterare,7,0,-7,-1.0
+Abonnemangsförsäljare,8,0,-8,-1.0
+"Handläggare, offentlig förvaltning/Utredare, offentlig förvaltning",8,0,-8,-1.0
+Svetsare,9,0,-9,-1.0
+Städare,10,0,-10,-1.0
+Lagerarbetare/Terminalarbetare,14,0,-14,-1.0
+"Butikssäljare, dagligvaror/Medarbetare, dagligvaror",14,0,-14,-1.0
+Personlig assistent,38,0,-38,-1.0
+"Sjuksköterska, grundutbildad",44,0,-44,-1.0

@@ -1,0 +1,1562 @@
+==== START 2025-09-03 15:00:40,37 ==== 
+Init DB…
+Fetched: 500
+agg_daily rows (sample):
+('2025-09-01', 'Stockholms län', 'Data/IT', 1)
+('2025-09-01', 'Västra Götalands län', 'Vård och omsorg', 1)
+('2025-09-02', None, 'Behandlingsassistent/Socialpedagog', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Butikschef', 1)
+('2025-09-02', None, 'Civilingenjör, energi', 1)
+('2025-09-02', None, 'Innesäljare', 1)
+('2025-09-02', None, 'Key account manager/KAM', 1)
+('2025-09-02', None, 'Kundtjänstmedarbetare', 1)
+('2025-09-02', None, 'Marknadsförare', 1)
+('2025-09-02', None, 'Orgelbyggare', 1)
+('2025-09-02', None, 'Städare', 1)
+('2025-09-02', None, 'Ställningsbyggare', 1)
+('2025-09-02', None, 'Undersköterska, hemtjänst, äldreboende och habilitering', 1)
+('2025-09-02', None, 'Väktare', 1)
+('2025-09-02', 'Blekinge län', 'Administrativ chef', 1)
+('2025-09-02', 'Blekinge län', 'Butikssäljare, fackhandel', 1)
+('2025-09-02', 'Blekinge län', 'Enhetschef, hälso- och sjukvård', 1)
+('2025-09-02', 'Blekinge län', 'Försäljningsassistent/Säljadministratör', 1)
+('2025-09-02', 'Blekinge län', 'Specialistofficer', 1)
+('2025-09-02', 'Dalarnas län', 'Anestesisjuksköterska', 1)
+('2025-09-02', 'Dalarnas län', 'Bagare/Konditor', 1)
+('2025-09-02', 'Dalarnas län', 'Dietist', 1)
+            date  ... ad_count
+0     2025-09-01  ...        1
+1     2025-09-01  ...        1
+2     2025-09-02  ...        1
+3     2025-09-02  ...        1
+4     2025-09-02  ...        1
+...          ...  ...      ...
+1114  2025-09-03  ...        1
+1115  2025-09-03  ...        3
+1116  2025-09-03  ...        1
+1117  2025-09-03  ...        2
+1118  2025-09-03  ...        1
+
+[1119 rows x 4 columns]
+Sparat: reports\daily_total.png
+Sparat: reports\top10_occupations.png
+Sparat: reports\top10_counties.png
+Sparat: reports\heatmap_occupations_by_county.png
+
+Top 10 rast (yrkesgrupp) – 7d:
+                                    occupation_group  start  end  delta  pct
+0                                Personlig assistent      0   35     35  1.0
+1                       Sjuksköterska, grundutbildad      0   25     25  1.0
+2            Försäljningsassistent/Säljadministratör      0   21     21  1.0
+3  Undersköterska, hemtjänst, äldreboende och hab...      0   18     18  1.0
+4                                  Restaurangbiträde      0   15     15  1.0
+5                                           Barnvakt      0   15     15  1.0
+6                                Personbilsmekaniker      0   14     14  1.0
+7                          Butikssäljare, fackhandel      0   14     14  1.0
+8                                            Städare      0   14     14  1.0
+9                                           Svetsare      0   13     13  1.0
+
+Top 10 pad (yrkesgrupp) – 7d:
+                occupation_group  start  end  delta  pct
+435      Besöksbokare/Kundbokare      0    0      0  NaN
+436          Betongelementmontör      0    0      0  NaN
+437                     Uthyrare      0    0      0  NaN
+438            Affärsresesäljare      0    0      0  NaN
+439     Webbansvarig/Webbstrateg      0    0      0  NaN
+440     Administrativ utvecklare      0    0      0  NaN
+441                 Hotellhusfru      0    0      0  NaN
+442  Besiktningstekniker, fordon      0    0      0  NaN
+443              Vård och omsorg      1    0     -1 -1.0
+444                      Data/IT      1    0     -1 -1.0
+
+Top 10 rast (län) – 7d:
+                 county  start  end  delta    pct
+0        Stockholms län      1  205    204  204.0
+1  Västra Götalands län      1  116    115  115.0
+2             Skåne län      0  110    110    1.0
+3     Östergötlands län      0   53     53    1.0
+4          Dalarnas län      0   34     34    1.0
+5       Norrbottens län      0   34     34    1.0
+6            Örebro län      0   32     32    1.0
+7        Jönköpings län      0   30     30    1.0
+8           Uppsala län      0   29     29    1.0
+9     Södermanlands län      0   28     28    1.0
+
+Top 10 pad (län) – 7d:
+                 county  start  end  delta  pct
+11        Värmlands län      0   26     26  1.0
+12     Västmanlands län      0   26     26  1.0
+13         Hallands län      0   21     21  1.0
+14           Kalmar län      0   19     19  1.0
+15    Västerbottens län      0   18     18  1.0
+16         Blekinge län      0   14     14  1.0
+17  Västernorrlands län      0   14     14  1.0
+18       Gävleborgs län      0   14     14  1.0
+19        Jämtlands län      0   10     10  1.0
+20         Gotlands län      0    4      4  1.0
+Sparat: reports\forecast_total_next7.png
+Sparat: reports\forecast_top_occ_7d.csv
+
+Prognos – topp yrkesgrupper (summa nästa 7 d):
+                                     occupation_group  hist_last7  ...  delta  pct
+0                                 Personlig assistent        68.0  ...  170.0  2.5
+1                        Sjuksköterska, grundutbildad        45.0  ...  112.5  2.5
+2             Försäljningsassistent/Säljadministratör        41.0  ...  102.5  2.5
+11                                           Barnvakt        15.0  ...   90.0  6.0
+3   Undersköterska, hemtjänst, äldreboende och hab...        26.0  ...   65.0  2.5
+4                                   Restaurangbiträde        26.0  ...   65.0  2.5
+5                      Systemutvecklare/Programmerare        23.0  ...   57.5  2.5
+6                           Butikssäljare, fackhandel        21.0  ...   52.5  2.5
+7                                             Städare        21.0  ...   52.5  2.5
+9                      Lagerarbetare/Terminalarbetare        16.0  ...   40.0  2.5
+
+[10 rows x 5 columns]
+Sparat: reports\forecast_top_occ_7d.png
+==== END 2025-09-03 15:00:50,60 ==== 
+==== START 2025-09-03 15:05:17,69 ==== 
+Init DB…
+Fetched: 500
+agg_daily rows (sample):
+('2025-09-01', 'Stockholms län', 'Data/IT', 1)
+('2025-09-01', 'Västra Götalands län', 'Vård och omsorg', 1)
+('2025-09-02', None, 'Behandlingsassistent/Socialpedagog', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Butikschef', 1)
+('2025-09-02', None, 'Civilingenjör, energi', 1)
+('2025-09-02', None, 'Innesäljare', 1)
+('2025-09-02', None, 'Key account manager/KAM', 1)
+('2025-09-02', None, 'Kundtjänstmedarbetare', 1)
+('2025-09-02', None, 'Marknadsförare', 1)
+('2025-09-02', None, 'Orgelbyggare', 1)
+('2025-09-02', None, 'Städare', 1)
+('2025-09-02', None, 'Ställningsbyggare', 1)
+('2025-09-02', None, 'Undersköterska, hemtjänst, äldreboende och habilitering', 1)
+('2025-09-02', None, 'Väktare', 1)
+('2025-09-02', 'Blekinge län', 'Administrativ chef', 1)
+('2025-09-02', 'Blekinge län', 'Butikssäljare, fackhandel', 1)
+('2025-09-02', 'Blekinge län', 'Enhetschef, hälso- och sjukvård', 1)
+('2025-09-02', 'Blekinge län', 'Försäljningsassistent/Säljadministratör', 1)
+('2025-09-02', 'Blekinge län', 'Specialistofficer', 1)
+('2025-09-02', 'Dalarnas län', 'Anestesisjuksköterska', 1)
+('2025-09-02', 'Dalarnas län', 'Bagare/Konditor', 1)
+('2025-09-02', 'Dalarnas län', 'Dietist', 1)
+            date  ... ad_count
+0     2025-09-01  ...        1
+1     2025-09-01  ...        1
+2     2025-09-02  ...        1
+3     2025-09-02  ...        1
+4     2025-09-02  ...        1
+...          ...  ...      ...
+1137  2025-09-03  ...        1
+1138  2025-09-03  ...        3
+1139  2025-09-03  ...        1
+1140  2025-09-03  ...        2
+1141  2025-09-03  ...        1
+
+[1142 rows x 4 columns]
+Sparat: reports\daily_total.png
+Sparat: reports\top10_occupations.png
+Sparat: reports\top10_counties.png
+Sparat: reports\heatmap_occupations_by_county.png
+
+Top 10 rast (yrkesgrupp) – 7d:
+                                    occupation_group  start  end  delta  pct
+0                                Personlig assistent      0   34     34  1.0
+1                       Sjuksköterska, grundutbildad      0   25     25  1.0
+2            Försäljningsassistent/Säljadministratör      0   21     21  1.0
+3  Undersköterska, hemtjänst, äldreboende och hab...      0   19     19  1.0
+4                                           Barnvakt      0   16     16  1.0
+5                                  Restaurangbiträde      0   15     15  1.0
+6                          Butikssäljare, fackhandel      0   14     14  1.0
+7                                Personbilsmekaniker      0   14     14  1.0
+8                                      Elevassistent      0   13     13  1.0
+9                                           Svetsare      0   13     13  1.0
+
+Top 10 pad (yrkesgrupp) – 7d:
+                                      occupation_group  start  end  delta  pct
+439                                      IT-samordnare      0    0      0  NaN
+440                                 Butiksdemonstratör      0    0      0  NaN
+441  Arbetsledare, kontorspersonal/Gruppledare, kon...      0    0      0  NaN
+442                                    Utvecklingschef      0    0      0  NaN
+443                                           Uthyrare      0    0      0  NaN
+444                                        Verksjurist      0    0      0  NaN
+445                                 Verksamhetskonsult      0    0      0  NaN
+446                                       VVS-ingenjör      0    0      0  NaN
+447                                    Vård och omsorg      1    0     -1 -1.0
+448                                            Data/IT      1    0     -1 -1.0
+
+Top 10 rast (län) – 7d:
+                 county  start  end  delta    pct
+0        Stockholms län      1  206    205  205.0
+1  Västra Götalands län      1  117    116  116.0
+2             Skåne län      0  112    112    1.0
+3     Östergötlands län      0   54     54    1.0
+4          Dalarnas län      0   34     34    1.0
+5       Norrbottens län      0   34     34    1.0
+6            Örebro län      0   33     33    1.0
+7        Jönköpings län      0   30     30    1.0
+8           Uppsala län      0   29     29    1.0
+9      Västmanlands län      0   28     28    1.0
+
+Top 10 pad (län) – 7d:
+                 county  start  end  delta  pct
+11    Södermanlands län      0   27     27  1.0
+12       Kronobergs län      0   27     27  1.0
+13         Hallands län      0   21     21  1.0
+14    Västerbottens län      0   19     19  1.0
+15           Kalmar län      0   19     19  1.0
+16         Blekinge län      0   14     14  1.0
+17  Västernorrlands län      0   14     14  1.0
+18       Gävleborgs län      0   14     14  1.0
+19        Jämtlands län      0   10     10  1.0
+20         Gotlands län      0    4      4  1.0
+Sparat: reports\forecast_total_next7.png
+Sparat: reports\forecast_top_occ_7d.csv
+
+Prognos – topp yrkesgrupper (summa nästa 7 d):
+                                    occupation_group  hist_last7  ...  delta  pct
+0                                Personlig assistent        67.0  ...  167.5  2.5
+1                       Sjuksköterska, grundutbildad        45.0  ...  112.5  2.5
+2            Försäljningsassistent/Säljadministratör        41.0  ...  102.5  2.5
+9                                           Barnvakt        16.0  ...   96.0  6.0
+3  Undersköterska, hemtjänst, äldreboende och hab...        27.0  ...   67.5  2.5
+4                                  Restaurangbiträde        26.0  ...   65.0  2.5
+5                     Systemutvecklare/Programmerare        23.0  ...   57.5  2.5
+6                          Butikssäljare, fackhandel        21.0  ...   52.5  2.5
+7                                            Städare        19.0  ...   47.5  2.5
+8                              Kundtjänstmedarbetare        18.0  ...   45.0  2.5
+
+[10 rows x 5 columns]
+Sparat: reports\forecast_top_occ_7d.png
+==== END 2025-09-03 15:05:27,77 ==== 
+==== START 2025-09-03 15:05:41,52 ==== 
+Init DB…
+Fetched: 500
+agg_daily rows (sample):
+('2025-09-01', 'Stockholms län', 'Data/IT', 1)
+('2025-09-01', 'Västra Götalands län', 'Vård och omsorg', 1)
+('2025-09-02', None, 'Behandlingsassistent/Socialpedagog', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Butikschef', 1)
+('2025-09-02', None, 'Civilingenjör, energi', 1)
+('2025-09-02', None, 'Innesäljare', 1)
+('2025-09-02', None, 'Key account manager/KAM', 1)
+('2025-09-02', None, 'Kundtjänstmedarbetare', 1)
+('2025-09-02', None, 'Marknadsförare', 1)
+('2025-09-02', None, 'Orgelbyggare', 1)
+('2025-09-02', None, 'Städare', 1)
+('2025-09-02', None, 'Ställningsbyggare', 1)
+('2025-09-02', None, 'Undersköterska, hemtjänst, äldreboende och habilitering', 1)
+('2025-09-02', None, 'Väktare', 1)
+('2025-09-02', 'Blekinge län', 'Administrativ chef', 1)
+('2025-09-02', 'Blekinge län', 'Butikssäljare, fackhandel', 1)
+('2025-09-02', 'Blekinge län', 'Enhetschef, hälso- och sjukvård', 1)
+('2025-09-02', 'Blekinge län', 'Försäljningsassistent/Säljadministratör', 1)
+('2025-09-02', 'Blekinge län', 'Specialistofficer', 1)
+('2025-09-02', 'Dalarnas län', 'Anestesisjuksköterska', 1)
+('2025-09-02', 'Dalarnas län', 'Bagare/Konditor', 1)
+('2025-09-02', 'Dalarnas län', 'Dietist', 1)
+            date  ... ad_count
+0     2025-09-01  ...        1
+1     2025-09-01  ...        1
+2     2025-09-02  ...        1
+3     2025-09-02  ...        1
+4     2025-09-02  ...        1
+...          ...  ...      ...
+1149  2025-09-03  ...        1
+1150  2025-09-03  ...        3
+1151  2025-09-03  ...        1
+1152  2025-09-03  ...        2
+1153  2025-09-03  ...        1
+
+[1154 rows x 4 columns]
+Sparat: reports\daily_total.png
+Sparat: reports\top10_occupations.png
+Sparat: reports\top10_counties.png
+Sparat: reports\heatmap_occupations_by_county.png
+
+Top 10 rast (yrkesgrupp) – 7d:
+                                    occupation_group  start  end  delta  pct
+0                                Personlig assistent      0   34     34  1.0
+1                       Sjuksköterska, grundutbildad      0   25     25  1.0
+2            Försäljningsassistent/Säljadministratör      0   21     21  1.0
+3  Undersköterska, hemtjänst, äldreboende och hab...      0   19     19  1.0
+4                                           Barnvakt      0   16     16  1.0
+5                                  Restaurangbiträde      0   15     15  1.0
+6                          Butikssäljare, fackhandel      0   14     14  1.0
+7                              Kundtjänstmedarbetare      0   14     14  1.0
+8                                Personbilsmekaniker      0   14     14  1.0
+9                                      Elevassistent      0   13     13  1.0
+
+Top 10 pad (yrkesgrupp) – 7d:
+                                      occupation_group  start  end  delta  pct
+439                                      IT-samordnare      0    0      0  NaN
+440                                 Butiksdemonstratör      0    0      0  NaN
+441  Arbetsledare, kontorspersonal/Gruppledare, kon...      0    0      0  NaN
+442                                    Utvecklingschef      0    0      0  NaN
+443                                           Uthyrare      0    0      0  NaN
+444                                        Verksjurist      0    0      0  NaN
+445                                 Verksamhetskonsult      0    0      0  NaN
+446                                       VVS-ingenjör      0    0      0  NaN
+447                                    Vård och omsorg      1    0     -1 -1.0
+448                                            Data/IT      1    0     -1 -1.0
+
+Top 10 rast (län) – 7d:
+                 county  start  end  delta    pct
+0        Stockholms län      1  206    205  205.0
+1  Västra Götalands län      1  117    116  116.0
+2             Skåne län      0  112    112    1.0
+3     Östergötlands län      0   54     54    1.0
+4          Dalarnas län      0   34     34    1.0
+5       Norrbottens län      0   34     34    1.0
+6            Örebro län      0   33     33    1.0
+7        Jönköpings län      0   30     30    1.0
+8           Uppsala län      0   29     29    1.0
+9      Västmanlands län      0   28     28    1.0
+
+Top 10 pad (län) – 7d:
+                 county  start  end  delta  pct
+11    Södermanlands län      0   27     27  1.0
+12       Kronobergs län      0   27     27  1.0
+13         Hallands län      0   21     21  1.0
+14    Västerbottens län      0   19     19  1.0
+15           Kalmar län      0   19     19  1.0
+16         Blekinge län      0   14     14  1.0
+17  Västernorrlands län      0   14     14  1.0
+18       Gävleborgs län      0   14     14  1.0
+19        Jämtlands län      0   10     10  1.0
+20         Gotlands län      0    4      4  1.0
+Sparat: reports\forecast_total_next7.png
+Sparat: reports\forecast_top_occ_7d.csv
+
+Prognos – topp yrkesgrupper (summa nästa 7 d):
+                                    occupation_group  hist_last7  ...  delta  pct
+0                                Personlig assistent        67.0  ...  167.5  2.5
+1                       Sjuksköterska, grundutbildad        45.0  ...  112.5  2.5
+2            Försäljningsassistent/Säljadministratör        41.0  ...  102.5  2.5
+9                                           Barnvakt        16.0  ...   96.0  6.0
+3  Undersköterska, hemtjänst, äldreboende och hab...        27.0  ...   67.5  2.5
+4                                  Restaurangbiträde        26.0  ...   65.0  2.5
+5                     Systemutvecklare/Programmerare        23.0  ...   57.5  2.5
+6                          Butikssäljare, fackhandel        21.0  ...   52.5  2.5
+7                              Kundtjänstmedarbetare        20.0  ...   50.0  2.5
+8                                            Städare        19.0  ...   47.5  2.5
+
+[10 rows x 5 columns]
+Sparat: reports\forecast_top_occ_7d.png
+==== END 2025-09-03 15:05:50,82 ==== 
+==== START 2025-09-04 16:35:45,36 ==== 
+ERROR:root:Error fetching JobTech data: HTTPSConnectionPool(host='jobsearch.api.jobtechdev.se', port=443): Max retries exceeded with url: /search?q=%2A&limit=100&offset=0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A51EB51EB0>: Failed to resolve 'jobsearch.api.jobtechdev.se' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001A51EB51EB0>: Failed to resolve 'jobsearch.api.jobtechdev.se' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='jobsearch.api.jobtechdev.se', port=443): Max retries exceeded with url: /search?q=%2A&limit=100&offset=0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A51EB51EB0>: Failed to resolve 'jobsearch.api.jobtechdev.se' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\anaba\OneDrive\Desktop\Python fördjupat\Kunskapskontroll 2\src\fetch.py", line 97, in fetch_ads
+    raise last_exc  # if both attempts failed
+    ^^^^^^^^^^^^^^
+  File "C:\Users\anaba\OneDrive\Desktop\Python fördjupat\Kunskapskontroll 2\src\fetch.py", line 91, in fetch_ads
+    resp = session.get(JOBSEARCH_URL, headers=headers, params=params, timeout=30)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='jobsearch.api.jobtechdev.se', port=443): Max retries exceeded with url: /search?q=%2A&limit=100&offset=0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A51EB51EB0>: Failed to resolve 'jobsearch.api.jobtechdev.se' ([Errno 11001] getaddrinfo failed)"))
+Init DB…
+Fetched: 3
+agg_daily rows (sample):
+('2025-09-01', 'Stockholms län', 'Data/IT', 1)
+('2025-09-01', 'Västra Götalands län', 'Vård och omsorg', 1)
+('2025-09-02', None, 'Behandlingsassistent/Socialpedagog', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Butikschef', 1)
+('2025-09-02', None, 'Civilingenjör, energi', 1)
+('2025-09-02', None, 'Innesäljare', 1)
+('2025-09-02', None, 'Key account manager/KAM', 1)
+('2025-09-02', None, 'Kundtjänstmedarbetare', 1)
+('2025-09-02', None, 'Marknadsförare', 1)
+('2025-09-02', None, 'Orgelbyggare', 1)
+('2025-09-02', None, 'Städare', 1)
+('2025-09-02', None, 'Ställningsbyggare', 1)
+('2025-09-02', None, 'Undersköterska, hemtjänst, äldreboende och habilitering', 1)
+('2025-09-02', None, 'Väktare', 1)
+('2025-09-02', 'Blekinge län', 'Administrativ chef', 1)
+('2025-09-02', 'Blekinge län', 'Butikssäljare, fackhandel', 1)
+('2025-09-02', 'Blekinge län', 'Enhetschef, hälso- och sjukvård', 1)
+('2025-09-02', 'Blekinge län', 'Försäljningsassistent/Säljadministratör', 1)
+('2025-09-02', 'Blekinge län', 'Specialistofficer', 1)
+('2025-09-02', 'Dalarnas län', 'Anestesisjuksköterska', 1)
+('2025-09-02', 'Dalarnas län', 'Bagare/Konditor', 1)
+('2025-09-02', 'Dalarnas län', 'Dietist', 1)
+            date  ... ad_count
+0     2025-09-01  ...        1
+1     2025-09-01  ...        1
+2     2025-09-02  ...        1
+3     2025-09-02  ...        1
+4     2025-09-02  ...        1
+...          ...  ...      ...
+1149  2025-09-03  ...        1
+1150  2025-09-03  ...        3
+1151  2025-09-03  ...        1
+1152  2025-09-03  ...        2
+1153  2025-09-03  ...        1
+
+[1154 rows x 4 columns]
+Sparat: reports\daily_total.png
+Sparat: reports\top10_occupations.png
+Sparat: reports\top10_counties.png
+Sparat: reports\heatmap_occupations_by_county.png
+
+Top 10 rast (yrkesgrupp) – 7d:
+                                    occupation_group  start  end  delta  pct
+0                                Personlig assistent      0   34     34  1.0
+1                       Sjuksköterska, grundutbildad      0   25     25  1.0
+2            Försäljningsassistent/Säljadministratör      0   21     21  1.0
+3  Undersköterska, hemtjänst, äldreboende och hab...      0   19     19  1.0
+4                                           Barnvakt      0   16     16  1.0
+5                                  Restaurangbiträde      0   15     15  1.0
+6                          Butikssäljare, fackhandel      0   14     14  1.0
+7                              Kundtjänstmedarbetare      0   14     14  1.0
+8                                Personbilsmekaniker      0   14     14  1.0
+9                                      Elevassistent      0   13     13  1.0
+
+Top 10 pad (yrkesgrupp) – 7d:
+                                      occupation_group  start  end  delta  pct
+439                                      IT-samordnare      0    0      0  NaN
+440                                 Butiksdemonstratör      0    0      0  NaN
+441  Arbetsledare, kontorspersonal/Gruppledare, kon...      0    0      0  NaN
+442                                    Utvecklingschef      0    0      0  NaN
+443                                           Uthyrare      0    0      0  NaN
+444                                        Verksjurist      0    0      0  NaN
+445                                 Verksamhetskonsult      0    0      0  NaN
+446                                       VVS-ingenjör      0    0      0  NaN
+447                                    Vård och omsorg      1    0     -1 -1.0
+448                                            Data/IT      1    0     -1 -1.0
+
+Top 10 rast (län) – 7d:
+                 county  start  end  delta    pct
+0        Stockholms län      1  206    205  205.0
+1  Västra Götalands län      1  117    116  116.0
+2             Skåne län      0  112    112    1.0
+3     Östergötlands län      0   54     54    1.0
+4          Dalarnas län      0   34     34    1.0
+5       Norrbottens län      0   34     34    1.0
+6            Örebro län      0   33     33    1.0
+7        Jönköpings län      0   30     30    1.0
+8           Uppsala län      0   29     29    1.0
+9      Västmanlands län      0   28     28    1.0
+
+Top 10 pad (län) – 7d:
+                 county  start  end  delta  pct
+11    Södermanlands län      0   27     27  1.0
+12       Kronobergs län      0   27     27  1.0
+13         Hallands län      0   21     21  1.0
+14    Västerbottens län      0   19     19  1.0
+15           Kalmar län      0   19     19  1.0
+16         Blekinge län      0   14     14  1.0
+17  Västernorrlands län      0   14     14  1.0
+18       Gävleborgs län      0   14     14  1.0
+19        Jämtlands län      0   10     10  1.0
+20         Gotlands län      0    4      4  1.0
+Sparat: reports\forecast_total_next7.png
+Sparat: reports\forecast_top_occ_7d.csv
+
+Prognos – topp yrkesgrupper (summa nästa 7 d):
+                                    occupation_group  hist_last7  ...  delta  pct
+0                                Personlig assistent        67.0  ...  167.5  2.5
+1                       Sjuksköterska, grundutbildad        45.0  ...  112.5  2.5
+2            Försäljningsassistent/Säljadministratör        41.0  ...  102.5  2.5
+9                                           Barnvakt        16.0  ...   96.0  6.0
+3  Undersköterska, hemtjänst, äldreboende och hab...        27.0  ...   67.5  2.5
+4                                  Restaurangbiträde        26.0  ...   65.0  2.5
+5                     Systemutvecklare/Programmerare        23.0  ...   57.5  2.5
+6                          Butikssäljare, fackhandel        21.0  ...   52.5  2.5
+7                              Kundtjänstmedarbetare        20.0  ...   50.0  2.5
+8                                            Städare        19.0  ...   47.5  2.5
+
+[10 rows x 5 columns]
+Sparat: reports\forecast_top_occ_7d.png
+==== END 2025-09-04 16:37:57,76 ==== 
+==== START 2025-09-05  9:09:39,33 ==== 
+Init DB…
+Fetched: 500
+agg_daily rows (sample):
+('2025-09-01', 'Stockholms län', 'Data/IT', 1)
+('2025-09-01', 'Västra Götalands län', 'Vård och omsorg', 1)
+('2025-09-02', None, 'Behandlingsassistent/Socialpedagog', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Butikschef', 1)
+('2025-09-02', None, 'Civilingenjör, energi', 1)
+('2025-09-02', None, 'Innesäljare', 1)
+('2025-09-02', None, 'Key account manager/KAM', 1)
+('2025-09-02', None, 'Kundtjänstmedarbetare', 1)
+('2025-09-02', None, 'Marknadsförare', 1)
+('2025-09-02', None, 'Orgelbyggare', 1)
+('2025-09-02', None, 'Städare', 1)
+('2025-09-02', None, 'Ställningsbyggare', 1)
+('2025-09-02', None, 'Undersköterska, hemtjänst, äldreboende och habilitering', 1)
+('2025-09-02', None, 'Väktare', 1)
+('2025-09-02', 'Blekinge län', 'Administrativ chef', 1)
+('2025-09-02', 'Blekinge län', 'Butikssäljare, fackhandel', 1)
+('2025-09-02', 'Blekinge län', 'Enhetschef, hälso- och sjukvård', 1)
+('2025-09-02', 'Blekinge län', 'Försäljningsassistent/Säljadministratör', 1)
+('2025-09-02', 'Blekinge län', 'Specialistofficer', 1)
+('2025-09-02', 'Dalarnas län', 'Anestesisjuksköterska', 1)
+('2025-09-02', 'Dalarnas län', 'Bagare/Konditor', 1)
+('2025-09-02', 'Dalarnas län', 'Dietist', 1)
+            date  ... ad_count
+0     2025-09-01  ...        1
+1     2025-09-01  ...        1
+2     2025-09-02  ...        1
+3     2025-09-02  ...        1
+4     2025-09-02  ...        1
+...          ...  ...      ...
+1561  2025-09-05  ...        1
+1562  2025-09-05  ...        1
+1563  2025-09-05  ...        1
+1564  2025-09-05  ...        1
+1565  2025-09-05  ...        1
+
+[1566 rows x 4 columns]
+Sparat: reports\daily_total.png
+Sparat: reports\top10_occupations.png
+Sparat: reports\top10_counties.png
+Sparat: reports\heatmap_occupations_by_county.png
+
+Top 10 rast (yrkesgrupp) – 7d:
+                                    occupation_group  start  end  delta  pct
+0                       Sjuksköterska, grundutbildad      0   13     13  1.0
+1                                Personlig assistent      0   13     13  1.0
+2                                         Däckmontör      0   11     11  1.0
+3                                          AT-läkare      0    8      8  1.0
+4  Undersköterska, hemtjänst, äldreboende och hab...      0    8      8  1.0
+5                                        Innesäljare      0    8      8  1.0
+6                                      Administratör      0    7      7  1.0
+7  Undersköterska, vård- och specialavdelning och...      0    7      7  1.0
+8  Butikssäljare, dagligvaror/Medarbetare, daglig...      0    6      6  1.0
+9                 Lärare i fritidshem/Fritidspedagog      0    6      6  1.0
+
+Top 10 pad (yrkesgrupp) – 7d:
+                occupation_group  start  end  delta  pct
+529            Verkstadstekniker      0    0      0  NaN
+530                  Verksjurist      0    0      0  NaN
+531           Verksamhetskonsult      0    0      0  NaN
+532        Verksamhetsanalytiker      0    0      0  NaN
+533                 VVS-ingenjör      0    0      0  NaN
+534  Utvecklingsingenjör, maskin      0    0      0  NaN
+535              Utvecklingschef      0    0      0  NaN
+536               Uthyrningschef      0    0      0  NaN
+537              Vård och omsorg      1    0     -1 -1.0
+538                      Data/IT      1    0     -1 -1.0
+
+Top 10 rast (län) – 7d:
+                 county  start  end  delta   pct
+0        Stockholms län      1   82     81  81.0
+1  Västra Götalands län      1   61     60  60.0
+2             Skåne län      0   58     58   1.0
+3        Jönköpings län      0   29     29   1.0
+4       Norrbottens län      0   18     18   1.0
+5      Västmanlands län      0   14     14   1.0
+6            Kalmar län      0   14     14   1.0
+7     Östergötlands län      0   14     14   1.0
+8     Västerbottens län      0   12     12   1.0
+9           Uppsala län      0   12     12   1.0
+
+Top 10 pad (län) – 7d:
+                 county  start  end  delta  pct
+11           Örebro län      0   10     10  1.0
+12         Dalarnas län      0    9      9  1.0
+13         Hallands län      0    9      9  1.0
+14  Västernorrlands län      0    8      8  1.0
+15        Värmlands län      0    7      7  1.0
+16        Jämtlands län      0    6      6  1.0
+17         Blekinge län      0    5      5  1.0
+18       Gävleborgs län      0    4      4  1.0
+19    Södermanlands län      0    4      4  1.0
+20         Gotlands län      0    2      2  1.0
+Sparat: reports\forecast_total_next7.png
+Sparat: reports\forecast_top_occ_7d.csv
+
+Prognos – topp yrkesgrupper (summa nästa 7 d):
+                                    occupation_group  hist_last7  ...   delta   pct
+0                                Personlig assistent        83.0  ...   62.25  0.75
+2            Försäljningsassistent/Säljadministratör        41.0  ...  102.50  2.50
+1                       Sjuksköterska, grundutbildad        58.0  ...   43.50  0.75
+3  Undersköterska, hemtjänst, äldreboende och hab...        35.0  ...   26.25  0.75
+4                                  Restaurangbiträde        31.0  ...   23.25  0.75
+5                     Systemutvecklare/Programmerare        29.0  ...   21.75  0.75
+6                          Butikssäljare, fackhandel        26.0  ...   19.50  0.75
+7                     Lagerarbetare/Terminalarbetare        24.0  ...   18.00  0.75
+8                                        Barnskötare        22.0  ...   16.50  0.75
+9                                      Elevassistent        22.0  ...   16.50  0.75
+
+[10 rows x 5 columns]
+Sparat: reports\forecast_top_occ_7d.png
+==== END 2025-09-05  9:09:48,27 ==== 
+==== START 2025-09-06  7:00:01,53 ==== 
+Init DB…
+Fetched: 500
+agg_daily rows (sample):
+('2025-09-01', 'Stockholms län', 'Data/IT', 1)
+('2025-09-01', 'Västra Götalands län', 'Vård och omsorg', 1)
+('2025-09-02', None, 'Behandlingsassistent/Socialpedagog', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Butikschef', 1)
+('2025-09-02', None, 'Civilingenjör, energi', 1)
+('2025-09-02', None, 'Innesäljare', 1)
+('2025-09-02', None, 'Key account manager/KAM', 1)
+('2025-09-02', None, 'Kundtjänstmedarbetare', 1)
+('2025-09-02', None, 'Marknadsförare', 1)
+('2025-09-02', None, 'Orgelbyggare', 1)
+('2025-09-02', None, 'Städare', 1)
+('2025-09-02', None, 'Ställningsbyggare', 1)
+('2025-09-02', None, 'Undersköterska, hemtjänst, äldreboende och habilitering', 1)
+('2025-09-02', None, 'Väktare', 1)
+('2025-09-02', 'Blekinge län', 'Administrativ chef', 1)
+('2025-09-02', 'Blekinge län', 'Butikssäljare, fackhandel', 1)
+('2025-09-02', 'Blekinge län', 'Enhetschef, hälso- och sjukvård', 1)
+('2025-09-02', 'Blekinge län', 'Försäljningsassistent/Säljadministratör', 1)
+('2025-09-02', 'Blekinge län', 'Specialistofficer', 1)
+('2025-09-02', 'Dalarnas län', 'Anestesisjuksköterska', 1)
+('2025-09-02', 'Dalarnas län', 'Bagare/Konditor', 1)
+('2025-09-02', 'Dalarnas län', 'Dietist', 1)
+            date  ... ad_count
+0     2025-09-01  ...        1
+1     2025-09-01  ...        1
+2     2025-09-02  ...        1
+3     2025-09-02  ...        1
+4     2025-09-02  ...        1
+...          ...  ...      ...
+1912  2025-09-06  ...        1
+1913  2025-09-06  ...        2
+1914  2025-09-06  ...        2
+1915  2025-09-06  ...        1
+1916  2025-09-06  ...        1
+
+[1917 rows x 4 columns]
+Sparat: reports\daily_total.png
+Sparat: reports\top10_occupations.png
+Sparat: reports\top10_counties.png
+Sparat: reports\heatmap_occupations_by_county.png
+
+Top 10 rast (yrkesgrupp) – 7d:
+                                    occupation_group  start  end  delta  pct
+0                       Sjuksköterska, grundutbildad      0    5      5  1.0
+1                                        Innesäljare      0    2      2  1.0
+2                      Maskinoperatör, garnberedning      0    2      2  1.0
+3  Butikssäljare, dagligvaror/Medarbetare, daglig...      0    1      1  1.0
+4                          Butikssäljare, fackhandel      0    1      1  1.0
+5                                    Kock à la carte      0    1      1  1.0
+6                  Enhetschef, offentlig förvaltning      0    1      1  1.0
+7                                         Eltekniker      0    1      1  1.0
+8                              Kundtjänstmedarbetare      0    1      1  1.0
+9                                  Akutsjuksköterska      0    1      1  1.0
+
+Top 10 pad (yrkesgrupp) – 7d:
+                            occupation_group  start  end  delta  pct
+602                                  Väktare      0    0      0  NaN
+603  Vårdare/Arbetshandledare/Boendestödjare      0    0      0  NaN
+604                    Användbarhetsdesigner      0    0      0  NaN
+605                           Vårdutvecklare      0    0      0  NaN
+606                 Webbansvarig/Webbstrateg      0    0      0  NaN
+607                              Yrkeslärare      0    0      0  NaN
+608                    Accounting controller      0    0      0  NaN
+609                    Abonnemangsförsäljare      0    0      0  NaN
+610                          Vård och omsorg      1    0     -1 -1.0
+611                                  Data/IT      1    0     -1 -1.0
+
+Top 10 rast (län) – 7d:
+                 county  start  end  delta  pct
+0  Västra Götalands län      1    9      8  8.0
+1        Stockholms län      1    4      3  3.0
+2       Norrbottens län      0    3      3  1.0
+3        Jönköpings län      0    2      2  1.0
+4          Hallands län      0    2      2  1.0
+5            Örebro län      0    1      1  1.0
+6     Västerbottens län      0    1      1  1.0
+7   Västernorrlands län      0    1      1  1.0
+8            Kalmar län      0    1      1  1.0
+9             Skåne län      0    1      1  1.0
+
+Top 10 pad (län) – 7d:
+               county  start  end  delta  pct
+11       Dalarnas län      0    0      0  NaN
+12       Blekinge län      0    0      0  NaN
+13     Gävleborgs län      0    0      0  NaN
+14       Gotlands län      0    0      0  NaN
+15      Jämtlands län      0    0      0  NaN
+16     Kronobergs län      0    0      0  NaN
+17  Södermanlands län      0    0      0  NaN
+18      Värmlands län      0    0      0  NaN
+19        Uppsala län      0    0      0  NaN
+20  Östergötlands län      0    0      0  NaN
+Sparat: reports\forecast_total_next7.png
+Sparat: reports\forecast_top_occ_7d.csv
+
+Prognos – topp yrkesgrupper (summa nästa 7 d):
+                                     occupation_group  hist_last7  ...   delta   pct
+0                                 Personlig assistent        97.0  ...   72.75  0.75
+2             Försäljningsassistent/Säljadministratör        41.0  ...  102.50  2.50
+1                        Sjuksköterska, grundutbildad        70.0  ...   28.00  0.40
+6                      Systemutvecklare/Programmerare        32.0  ...   24.00  0.75
+7                      Lagerarbetare/Terminalarbetare        32.0  ...   24.00  0.75
+3                           Butikssäljare, fackhandel        38.0  ...   15.20  0.40
+4                                   Restaurangbiträde        36.0  ...   14.40  0.40
+5   Undersköterska, hemtjänst, äldreboende och hab...        35.0  ...   14.00  0.40
+10                                 Mjukvaruutvecklare        26.0  ...   19.50  0.75
+8                               Kundtjänstmedarbetare        31.0  ...   12.40  0.40
+
+[10 rows x 5 columns]
+Sparat: reports\forecast_top_occ_7d.png
+==== END 2025-09-06  7:00:11,48 ==== 
+==== START 2025-09-07  7:00:01,54 ==== 
+Init DB…
+Fetched: 137
+agg_daily rows (sample):
+('2025-09-01', 'Stockholms län', 'Data/IT', 1)
+('2025-09-01', 'Västra Götalands län', 'Vård och omsorg', 1)
+('2025-09-02', None, 'Behandlingsassistent/Socialpedagog', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Butikschef', 1)
+('2025-09-02', None, 'Civilingenjör, energi', 1)
+('2025-09-02', None, 'Innesäljare', 1)
+('2025-09-02', None, 'Key account manager/KAM', 1)
+('2025-09-02', None, 'Kundtjänstmedarbetare', 1)
+('2025-09-02', None, 'Marknadsförare', 1)
+('2025-09-02', None, 'Orgelbyggare', 1)
+('2025-09-02', None, 'Städare', 1)
+('2025-09-02', None, 'Ställningsbyggare', 1)
+('2025-09-02', None, 'Undersköterska, hemtjänst, äldreboende och habilitering', 1)
+('2025-09-02', None, 'Väktare', 1)
+('2025-09-02', 'Blekinge län', 'Administrativ chef', 1)
+('2025-09-02', 'Blekinge län', 'Butikssäljare, fackhandel', 1)
+('2025-09-02', 'Blekinge län', 'Enhetschef, hälso- och sjukvård', 1)
+('2025-09-02', 'Blekinge län', 'Försäljningsassistent/Säljadministratör', 1)
+('2025-09-02', 'Blekinge län', 'Specialistofficer', 1)
+('2025-09-02', 'Dalarnas län', 'Anestesisjuksköterska', 1)
+('2025-09-02', 'Dalarnas län', 'Bagare/Konditor', 1)
+('2025-09-02', 'Dalarnas län', 'Dietist', 1)
+            date  ... ad_count
+0     2025-09-01  ...        1
+1     2025-09-01  ...        1
+2     2025-09-02  ...        1
+3     2025-09-02  ...        1
+4     2025-09-02  ...        1
+...          ...  ...      ...
+2013  2025-09-07  ...        1
+2014  2025-09-07  ...        2
+2015  2025-09-07  ...        1
+2016  2025-09-07  ...        1
+2017  2025-09-07  ...        1
+
+[2018 rows x 4 columns]
+Sparat: reports\daily_total.png
+Sparat: reports\top10_occupations.png
+Sparat: reports\top10_counties.png
+Sparat: reports\heatmap_occupations_by_county.png
+
+Top 10 rast (yrkesgrupp) – 7d:
+                                    occupation_group  start  end  delta  pct
+0                                  Akutsjuksköterska      0    3      3  1.0
+1                              Bensinstationsbiträde      0    1      1  1.0
+2                                   Ekonomiassistent      0    1      1  1.0
+3  Enhetschef inom social omsorg/Föreståndare ino...      0    1      1  1.0
+4                         Jobbcoach/Utbildningscoach      0    1      1  1.0
+5  Handläggare, offentlig förvaltning/Utredare, o...      0    1      1  1.0
+6                                        Köksbiträde      0    1      1  1.0
+7                     Lagerarbetare/Terminalarbetare      0    1      1  1.0
+8                                 Marknadsförsäljare      0    1      1  1.0
+9                                Personlig assistent      0    1      1  1.0
+
+Top 10 pad (yrkesgrupp) – 7d:
+                            occupation_group  start  end  delta  pct
+607                                  Väktare      0    0      0  NaN
+608  Vårdare/Arbetshandledare/Boendestödjare      0    0      0  NaN
+609                              Vårdbiträde      0    0      0  NaN
+610                           Vårdutvecklare      0    0      0  NaN
+611                 Webbansvarig/Webbstrateg      0    0      0  NaN
+612                              Yrkeslärare      0    0      0  NaN
+613                         Affärsutvecklare      0    0      0  NaN
+614                               Utesäljare      0    0      0  NaN
+615                          Vård och omsorg      1    0     -1 -1.0
+616                                  Data/IT      1    0     -1 -1.0
+
+Top 10 rast (län) – 7d:
+                 county  start  end  delta  pct
+0             Skåne län      0    3      3  1.0
+1     Östergötlands län      0    2      2  1.0
+2  Västra Götalands län      1    3      2  2.0
+3        Gävleborgs län      0    2      2  1.0
+4          Hallands län      0    1      1  1.0
+5     Västerbottens län      0    1      1  1.0
+6           Uppsala län      0    1      1  1.0
+7          Gotlands län      0    1      1  1.0
+8         Jämtlands län      0    1      1  1.0
+9          Dalarnas län      0    0      0  NaN
+
+Top 10 pad (län) – 7d:
+                 county  start  end  delta  pct
+11           Kalmar län      0    0      0  NaN
+12       Jönköpings län      0    0      0  NaN
+13    Södermanlands län      0    0      0  NaN
+14       Stockholms län      1    1      0  0.0
+15      Norrbottens län      0    0      0  NaN
+16       Kronobergs län      0    0      0  NaN
+17  Västernorrlands län      0    0      0  NaN
+18        Värmlands län      0    0      0  NaN
+19     Västmanlands län      0    0      0  NaN
+20           Örebro län      0    0      0  NaN
+Sparat: reports\forecast_total_next7.png
+Sparat: reports\forecast_top_occ_7d.csv
+
+Prognos – topp yrkesgrupper (summa nästa 7 d):
+                                     occupation_group  ...       pct
+2             Försäljningsassistent/Säljadministratör  ...  2.500000
+0                                 Personlig assistent  ...  0.166667
+1                        Sjuksköterska, grundutbildad  ...  0.166667
+9                      Systemutvecklare/Programmerare  ...  0.750000
+3                                   Restaurangbiträde  ...  0.400000
+4                           Butikssäljare, fackhandel  ...  0.400000
+5   Undersköterska, hemtjänst, äldreboende och hab...  ...  0.400000
+6                               Kundtjänstmedarbetare  ...  0.400000
+10                                 Mjukvaruutvecklare  ...  0.750000
+8                                         Innesäljare  ...  0.400000
+
+[10 rows x 5 columns]
+Sparat: reports\forecast_top_occ_7d.png
+==== END 2025-09-07  7:00:10,98 ==== 
+==== START 2025-09-09 13:01:32,24 ==== 
+Init DB…
+Fetched: 500
+agg_daily rows (sample):
+('2025-09-01', 'Stockholms län', 'Data/IT', 1)
+('2025-09-01', 'Västra Götalands län', 'Vård och omsorg', 1)
+('2025-09-02', None, 'Behandlingsassistent/Socialpedagog', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Butikschef', 1)
+('2025-09-02', None, 'Civilingenjör, energi', 1)
+('2025-09-02', None, 'Innesäljare', 1)
+('2025-09-02', None, 'Key account manager/KAM', 1)
+('2025-09-02', None, 'Kundtjänstmedarbetare', 1)
+('2025-09-02', None, 'Marknadsförare', 1)
+('2025-09-02', None, 'Orgelbyggare', 1)
+('2025-09-02', None, 'Städare', 1)
+('2025-09-02', None, 'Ställningsbyggare', 1)
+('2025-09-02', None, 'Undersköterska, hemtjänst, äldreboende och habilitering', 1)
+('2025-09-02', None, 'Väktare', 1)
+('2025-09-02', 'Blekinge län', 'Administrativ chef', 1)
+('2025-09-02', 'Blekinge län', 'Butikssäljare, fackhandel', 1)
+('2025-09-02', 'Blekinge län', 'Enhetschef, hälso- och sjukvård', 1)
+('2025-09-02', 'Blekinge län', 'Försäljningsassistent/Säljadministratör', 1)
+('2025-09-02', 'Blekinge län', 'Specialistofficer', 1)
+('2025-09-02', 'Dalarnas län', 'Anestesisjuksköterska', 1)
+('2025-09-02', 'Dalarnas län', 'Bagare/Konditor', 1)
+('2025-09-02', 'Dalarnas län', 'Dietist', 1)
+            date  ... ad_count
+0     2025-09-01  ...        1
+1     2025-09-01  ...        1
+2     2025-09-02  ...        1
+3     2025-09-02  ...        1
+4     2025-09-02  ...        1
+...          ...  ...      ...
+2785  2025-09-09  ...        1
+2786  2025-09-09  ...        2
+2787  2025-09-09  ...        1
+2788  2025-09-09  ...        2
+2789  2025-09-09  ...        1
+
+[2790 rows x 4 columns]
+Sparat: reports\daily_total.png
+Sparat: reports\top10_occupations.png
+Sparat: reports\top10_counties.png
+Sparat: reports\heatmap_occupations_by_county.png
+
+Top 10 rast (yrkesgrupp) – 7d:
+                                    occupation_group  start  ...  delta       pct
+0                                 Hemtjänstassistent      0  ...      9  1.000000
+1                         Jobbcoach/Utbildningscoach      0  ...      6  1.000000
+2                            Besöksbokare/Kundbokare      0  ...      5  1.000000
+3                                Distributionsförare      1  ...      5  5.000000
+4                       Civilingenjör, teknisk fysik      0  ...      5  1.000000
+5                   Helpdesktekniker/Supporttekniker      2  ...      5  2.500000
+6                                        Truckförare      3  ...      4  1.333333
+7                                        Köksmästare      0  ...      3  1.000000
+8                                     Vårdutvecklare      0  ...      3  1.000000
+9  Kundmottagare, bilverkstad/Verkmästare, bilver...      1  ...      3  3.000000
+
+[10 rows x 5 columns]
+
+Top 10 pad (yrkesgrupp) – 7d:
+                            occupation_group  start  end  delta       pct
+658                    Kundtjänstmedarbetare     14    6     -8 -0.571429
+659                        Socialsekreterare      9    0     -9 -1.000000
+660                                   Läkare     10    0    -10 -1.000000
+661                                 Svetsare     13    3    -10 -0.769231
+662                      Personlig assistent     34   23    -11 -0.323529
+663                            Elevassistent     13    2    -11 -0.846154
+664                      Personbilsmekaniker     14    2    -12 -0.857143
+665             Sjuksköterska, grundutbildad     25   10    -15 -0.600000
+666                                 Barnvakt     16    0    -16 -1.000000
+667  Försäljningsassistent/Säljadministratör     21    0    -21 -1.000000
+
+Top 10 rast (län) – 7d:
+                county  start  end  delta       pct
+0         Gotlands län      4    3     -1 -0.250000
+1    Västerbottens län     19   15     -4 -0.210526
+2  Västernorrlands län     14    9     -5 -0.357143
+3       Gävleborgs län     14    8     -6 -0.428571
+4        Jämtlands län     10    4     -6 -0.600000
+5         Blekinge län     14    5     -9 -0.642857
+6    Södermanlands län     27   18     -9 -0.333333
+7           Kalmar län     19    9    -10 -0.526316
+8       Jönköpings län     30   20    -10 -0.333333
+9         Hallands län     21    7    -14 -0.666667
+
+Top 10 pad (län) – 7d:
+                  county  start  end  delta       pct
+11           Uppsala län     29   14    -15 -0.517241
+12         Värmlands län     27   10    -17 -0.629630
+13      Västmanlands län     28   10    -18 -0.642857
+14       Norrbottens län     34   16    -18 -0.529412
+15        Kronobergs län     27    6    -21 -0.777778
+16            Örebro län     33   11    -22 -0.666667
+17     Östergötlands län     54   31    -23 -0.425926
+18             Skåne län    112   58    -54 -0.482143
+19        Stockholms län    206  151    -55 -0.266990
+20  Västra Götalands län    117   45    -72 -0.615385
+Sparat: reports\forecast_total_next7.png
+Sparat: reports\forecast_top_occ_7d.csv
+
+Prognos – topp yrkesgrupper (summa nästa 7 d):
+                                     occupation_group  ...       pct
+9             Försäljningsassistent/Säljadministratör  ...  2.500000
+14                                   Ämneslärare, 7-9  ...  4.467878
+2   Undersköterska, hemtjänst, äldreboende och hab...  ... -0.134615
+11                                      Administratör  ...  0.137931
+10                                        Innesäljare  ... -0.243056
+7                                             Städare  ... -0.458333
+5                      Lagerarbetare/Terminalarbetare  ... -0.527027
+12                                Personbilsmekaniker  ... -0.580645
+0                                 Personlig assistent  ... -0.953271
+3                                   Restaurangbiträde  ... -0.907609
+
+[10 rows x 5 columns]
+Sparat: reports\forecast_top_occ_7d.png
+==== END 2025-09-09 13:01:54,71 ==== 
+==== START 2025-09-10 13:08:03,56 ==== 
+Init DB…
+Fetched: 500
+agg_daily rows (sample):
+('2025-09-01', 'Stockholms län', 'Data/IT', 1)
+('2025-09-01', 'Västra Götalands län', 'Vård och omsorg', 1)
+('2025-09-02', None, 'Behandlingsassistent/Socialpedagog', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Butikschef', 1)
+('2025-09-02', None, 'Civilingenjör, energi', 1)
+('2025-09-02', None, 'Innesäljare', 1)
+('2025-09-02', None, 'Key account manager/KAM', 1)
+('2025-09-02', None, 'Kundtjänstmedarbetare', 1)
+('2025-09-02', None, 'Marknadsförare', 1)
+('2025-09-02', None, 'Orgelbyggare', 1)
+('2025-09-02', None, 'Städare', 1)
+('2025-09-02', None, 'Ställningsbyggare', 1)
+('2025-09-02', None, 'Undersköterska, hemtjänst, äldreboende och habilitering', 1)
+('2025-09-02', None, 'Väktare', 1)
+('2025-09-02', 'Blekinge län', 'Administrativ chef', 1)
+('2025-09-02', 'Blekinge län', 'Butikssäljare, fackhandel', 1)
+('2025-09-02', 'Blekinge län', 'Enhetschef, hälso- och sjukvård', 1)
+('2025-09-02', 'Blekinge län', 'Försäljningsassistent/Säljadministratör', 1)
+('2025-09-02', 'Blekinge län', 'Specialistofficer', 1)
+('2025-09-02', 'Dalarnas län', 'Anestesisjuksköterska', 1)
+('2025-09-02', 'Dalarnas län', 'Bagare/Konditor', 1)
+('2025-09-02', 'Dalarnas län', 'Dietist', 1)
+            date  ... ad_count
+0     2025-09-01  ...        1
+1     2025-09-01  ...        1
+2     2025-09-02  ...        1
+3     2025-09-02  ...        1
+4     2025-09-02  ...        1
+...          ...  ...      ...
+3159  2025-09-10  ...        1
+3160  2025-09-10  ...        1
+3161  2025-09-10  ...        1
+3162  2025-09-10  ...        1
+3163  2025-09-10  ...        3
+
+[3164 rows x 4 columns]
+Sparat: reports\daily_total.png
+Sparat: reports\top10_occupations.png
+Sparat: reports\top10_counties.png
+Sparat: reports\heatmap_occupations_by_county.png
+
+Top 10 rast (yrkesgrupp) – 7d:
+                                    occupation_group  start  ...  delta        pct
+0                                           Barnvakt      0  ...     28   1.000000
+1                                       Mediasäljare      0  ...     23   1.000000
+2                                Personlig assistent      3  ...     19   6.333333
+3                     Systemutvecklare/Programmerare      2  ...     15   7.500000
+4                                  Telefonförsäljare      1  ...     11  11.000000
+5                       Sjuksköterska, grundutbildad      0  ...     10   1.000000
+6                                            Städare      0  ...      9   1.000000
+7  Handläggare, offentlig förvaltning/Utredare, o...      0  ...      7   1.000000
+8  Undersköterska, hemtjänst, äldreboende och hab...      0  ...      7   1.000000
+9                          Butikssäljare, fackhandel      2  ...      7   3.500000
+
+[10 rows x 5 columns]
+
+Top 10 pad (yrkesgrupp) – 7d:
+                   occupation_group  start  end  delta  pct
+606                     Pizzabagare      2    0     -2 -1.0
+607                   Tandhygienist      2    0     -2 -1.0
+608                  Uthyrningschef      2    0     -2 -1.0
+609                     Hudterapeut      2    0     -2 -1.0
+610                 Kock à la carte      2    0     -2 -1.0
+611                     Innesäljare      5    3     -2 -0.4
+612           Abonnemangsförsäljare      2    0     -2 -1.0
+613  Planeringsingenjör, elektronik      3    0     -3 -1.0
+614                      Taxiförare      6    0     -6 -1.0
+615         Jaktvårdare/Viltvårdare      6    0     -6 -1.0
+
+Top 10 rast (län) – 7d:
+                 county  start  end  delta        pct
+0        Stockholms län     33  125     92   2.787879
+1  Västra Götalands län     15   91     76   5.066667
+2             Skåne län     11   73     62   5.636364
+3     Östergötlands län      7   29     22   3.142857
+4       Norrbottens län      4   24     20   5.000000
+5           Uppsala län      3   19     16   5.333333
+6   Västernorrlands län      2   14     12   6.000000
+7     Västerbottens län      0   12     12   1.000000
+8        Kronobergs län      2   14     12   6.000000
+9         Jämtlands län      1   12     11  11.000000
+
+Top 10 pad (län) – 7d:
+               county  start  end  delta       pct
+11       Blekinge län      0    8      8  1.000000
+12         Örebro län      5   13      8  1.600000
+13       Hallands län      4   10      6  1.500000
+14       Dalarnas län      4   10      6  1.500000
+15  Södermanlands län      0    5      5  1.000000
+16      Värmlands län      1    4      3  3.000000
+17     Gävleborgs län      0    2      2  1.000000
+18       Gotlands län      0    2      2  1.000000
+19         Kalmar län      3    5      2  0.666667
+20     Jönköpings län      5    6      1  0.200000
+Sparat: reports\forecast_total_next7.png
+Sparat: reports\forecast_top_occ_7d.csv
+
+Prognos – topp yrkesgrupper (summa nästa 7 d):
+                                     occupation_group  ...        pct
+8                                            Barnvakt  ...  12.679468
+3                      Systemutvecklare/Programmerare  ...   7.382412
+0                                 Personlig assistent  ...  -0.420351
+2   Undersköterska, hemtjänst, äldreboende och hab...  ...   0.116111
+11                                  Telefonförsäljare  ...   0.512643
+6                                             Städare  ...   0.225592
+14                                      Administratör  ...   0.094253
+5                           Butikssäljare, fackhandel  ...  -0.360961
+13                                Personbilsmekaniker  ...  -0.031313
+7                      Lagerarbetare/Terminalarbetare  ...  -0.405229
+
+[10 rows x 5 columns]
+Sparat: reports\forecast_top_occ_7d.png
+==== END 2025-09-10 13:08:23,34 ==== 
+==== START 2025-09-11 17:43:47,88 ==== 
+ERROR:root:Error fetching JobTech data: HTTPSConnectionPool(host='jobsearch.api.jobtechdev.se', port=443): Max retries exceeded with url: /search?q=%2A&limit=100&offset=0 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002190F768C20>, 'Connection to jobsearch.api.jobtechdev.se timed out. (connect timeout=30)'))
+Traceback (most recent call last):
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 207, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x000002190F768C20>, 'Connection to jobsearch.api.jobtechdev.se timed out. (connect timeout=30)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='jobsearch.api.jobtechdev.se', port=443): Max retries exceeded with url: /search?q=%2A&limit=100&offset=0 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002190F768C20>, 'Connection to jobsearch.api.jobtechdev.se timed out. (connect timeout=30)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\anaba\OneDrive\Desktop\Python fördjupat\Kunskapskontroll 2\src\fetch.py", line 97, in fetch_ads
+    raise last_exc  # if both attempts failed
+    ^^^^^^^^^^^^^^
+  File "C:\Users\anaba\OneDrive\Desktop\Python fördjupat\Kunskapskontroll 2\src\fetch.py", line 91, in fetch_ads
+    resp = session.get(JOBSEARCH_URL, headers=headers, params=params, timeout=30)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anaba\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 665, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='jobsearch.api.jobtechdev.se', port=443): Max retries exceeded with url: /search?q=%2A&limit=100&offset=0 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002190F768C20>, 'Connection to jobsearch.api.jobtechdev.se timed out. (connect timeout=30)'))
+Init DB…
+Fetched: 3
+agg_daily rows (sample):
+('2025-09-01', 'Stockholms län', 'Data/IT', 1)
+('2025-09-01', 'Västra Götalands län', 'Vård och omsorg', 1)
+('2025-09-02', None, 'Behandlingsassistent/Socialpedagog', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Butikschef', 1)
+('2025-09-02', None, 'Civilingenjör, energi', 1)
+('2025-09-02', None, 'Innesäljare', 1)
+('2025-09-02', None, 'Key account manager/KAM', 1)
+('2025-09-02', None, 'Kundtjänstmedarbetare', 1)
+('2025-09-02', None, 'Marknadsförare', 1)
+('2025-09-02', None, 'Orgelbyggare', 1)
+('2025-09-02', None, 'Städare', 1)
+('2025-09-02', None, 'Ställningsbyggare', 1)
+('2025-09-02', None, 'Undersköterska, hemtjänst, äldreboende och habilitering', 1)
+('2025-09-02', None, 'Väktare', 1)
+('2025-09-02', 'Blekinge län', 'Administrativ chef', 1)
+('2025-09-02', 'Blekinge län', 'Butikssäljare, fackhandel', 1)
+('2025-09-02', 'Blekinge län', 'Enhetschef, hälso- och sjukvård', 1)
+('2025-09-02', 'Blekinge län', 'Försäljningsassistent/Säljadministratör', 1)
+('2025-09-02', 'Blekinge län', 'Specialistofficer', 1)
+('2025-09-02', 'Dalarnas län', 'Anestesisjuksköterska', 1)
+('2025-09-02', 'Dalarnas län', 'Bagare/Konditor', 1)
+('2025-09-02', 'Dalarnas län', 'Dietist', 1)
+            date  ... ad_count
+0     2025-09-01  ...        1
+1     2025-09-01  ...        1
+2     2025-09-02  ...        1
+3     2025-09-02  ...        1
+4     2025-09-02  ...        1
+...          ...  ...      ...
+3159  2025-09-10  ...        1
+3160  2025-09-10  ...        1
+3161  2025-09-10  ...        1
+3162  2025-09-10  ...        1
+3163  2025-09-10  ...        3
+
+[3164 rows x 4 columns]
+Sparat: reports\daily_total.png
+Sparat: reports\top10_occupations.png
+Sparat: reports\top10_counties.png
+Sparat: reports\heatmap_occupations_by_county.png
+
+Top 10 rast (yrkesgrupp) – 7d:
+                                    occupation_group  start  ...  delta        pct
+0                                           Barnvakt      0  ...     28   1.000000
+1                                       Mediasäljare      0  ...     23   1.000000
+2                                Personlig assistent      3  ...     19   6.333333
+3                     Systemutvecklare/Programmerare      2  ...     15   7.500000
+4                                  Telefonförsäljare      1  ...     11  11.000000
+5                       Sjuksköterska, grundutbildad      0  ...     10   1.000000
+6                                            Städare      0  ...      9   1.000000
+7  Handläggare, offentlig förvaltning/Utredare, o...      0  ...      7   1.000000
+8  Undersköterska, hemtjänst, äldreboende och hab...      0  ...      7   1.000000
+9                          Butikssäljare, fackhandel      2  ...      7   3.500000
+
+[10 rows x 5 columns]
+
+Top 10 pad (yrkesgrupp) – 7d:
+                   occupation_group  start  end  delta  pct
+606                     Pizzabagare      2    0     -2 -1.0
+607                   Tandhygienist      2    0     -2 -1.0
+608                  Uthyrningschef      2    0     -2 -1.0
+609                     Hudterapeut      2    0     -2 -1.0
+610                 Kock à la carte      2    0     -2 -1.0
+611                     Innesäljare      5    3     -2 -0.4
+612           Abonnemangsförsäljare      2    0     -2 -1.0
+613  Planeringsingenjör, elektronik      3    0     -3 -1.0
+614                      Taxiförare      6    0     -6 -1.0
+615         Jaktvårdare/Viltvårdare      6    0     -6 -1.0
+
+Top 10 rast (län) – 7d:
+                 county  start  end  delta        pct
+0        Stockholms län     33  125     92   2.787879
+1  Västra Götalands län     15   91     76   5.066667
+2             Skåne län     11   73     62   5.636364
+3     Östergötlands län      7   29     22   3.142857
+4       Norrbottens län      4   24     20   5.000000
+5           Uppsala län      3   19     16   5.333333
+6   Västernorrlands län      2   14     12   6.000000
+7     Västerbottens län      0   12     12   1.000000
+8        Kronobergs län      2   14     12   6.000000
+9         Jämtlands län      1   12     11  11.000000
+
+Top 10 pad (län) – 7d:
+               county  start  end  delta       pct
+11       Blekinge län      0    8      8  1.000000
+12         Örebro län      5   13      8  1.600000
+13       Hallands län      4   10      6  1.500000
+14       Dalarnas län      4   10      6  1.500000
+15  Södermanlands län      0    5      5  1.000000
+16      Värmlands län      1    4      3  3.000000
+17     Gävleborgs län      0    2      2  1.000000
+18       Gotlands län      0    2      2  1.000000
+19         Kalmar län      3    5      2  0.666667
+20     Jönköpings län      5    6      1  0.200000
+Sparat: reports\forecast_total_next7.png
+Sparat: reports\forecast_top_occ_7d.csv
+
+Prognos – topp yrkesgrupper (summa nästa 7 d):
+                                     occupation_group  ...        pct
+8                                            Barnvakt  ...  12.679468
+3                      Systemutvecklare/Programmerare  ...   7.382412
+0                                 Personlig assistent  ...  -0.420351
+2   Undersköterska, hemtjänst, äldreboende och hab...  ...   0.116111
+11                                  Telefonförsäljare  ...   0.512643
+6                                             Städare  ...   0.225592
+14                                      Administratör  ...   0.094253
+5                           Butikssäljare, fackhandel  ...  -0.360961
+13                                Personbilsmekaniker  ...  -0.031313
+7                      Lagerarbetare/Terminalarbetare  ...  -0.405229
+
+[10 rows x 5 columns]
+Sparat: reports\forecast_top_occ_7d.png
+==== END 2025-09-11 18:07:18,00 ==== 
+==== START 2025-09-16 10:18:18,18 ==== 
+Init DB…
+Fetched: 500
+agg_daily rows (sample):
+('2025-09-01', 'Stockholms län', 'Data/IT', 1)
+('2025-09-01', 'Västra Götalands län', 'Vård och omsorg', 1)
+('2025-09-02', None, 'Behandlingsassistent/Socialpedagog', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Butikschef', 1)
+('2025-09-02', None, 'Civilingenjör, energi', 1)
+('2025-09-02', None, 'Innesäljare', 1)
+('2025-09-02', None, 'Key account manager/KAM', 1)
+('2025-09-02', None, 'Kundtjänstmedarbetare', 1)
+('2025-09-02', None, 'Marknadsförare', 1)
+('2025-09-02', None, 'Orgelbyggare', 1)
+('2025-09-02', None, 'Städare', 1)
+('2025-09-02', None, 'Ställningsbyggare', 1)
+('2025-09-02', None, 'Undersköterska, hemtjänst, äldreboende och habilitering', 1)
+('2025-09-02', None, 'Väktare', 1)
+('2025-09-02', 'Blekinge län', 'Administrativ chef', 1)
+('2025-09-02', 'Blekinge län', 'Butikssäljare, fackhandel', 1)
+('2025-09-02', 'Blekinge län', 'Enhetschef, hälso- och sjukvård', 1)
+('2025-09-02', 'Blekinge län', 'Försäljningsassistent/Säljadministratör', 1)
+('2025-09-02', 'Blekinge län', 'Specialistofficer', 1)
+('2025-09-02', 'Dalarnas län', 'Anestesisjuksköterska', 1)
+('2025-09-02', 'Dalarnas län', 'Bagare/Konditor', 1)
+('2025-09-02', 'Dalarnas län', 'Dietist', 1)
+            date  ... ad_count
+0     2025-09-01  ...        1
+1     2025-09-01  ...        1
+2     2025-09-02  ...        1
+3     2025-09-02  ...        1
+4     2025-09-02  ...        1
+...          ...  ...      ...
+3523  2025-09-16  ...        1
+3524  2025-09-16  ...        1
+3525  2025-09-16  ...        2
+3526  2025-09-16  ...        1
+3527  2025-09-16  ...        1
+
+[3528 rows x 4 columns]
+Sparat: reports\daily_total.png
+Sparat: reports\top10_occupations.png
+Sparat: reports\top10_counties.png
+Sparat: reports\heatmap_occupations_by_county.png
+
+Top 10 rast (yrkesgrupp) – 7d:
+                                    occupation_group  start  ...  delta       pct
+0                       Sjuksköterska, grundutbildad     10  ...     34  3.400000
+1                                Personlig assistent     22  ...     16  0.727273
+2  Butikssäljare, dagligvaror/Medarbetare, daglig...      4  ...     10  2.500000
+3                     Lagerarbetare/Terminalarbetare      5  ...      9  1.800000
+4                              Abonnemangsförsäljare      0  ...      8  1.000000
+5                                        Truckförare      0  ...      5  1.000000
+6                                           Psykolog      1  ...      4  4.000000
+7                    Serviceelektriker, installation      0  ...      4  1.000000
+8                                           Svetsare      5  ...      4  0.800000
+9                                     Arbetsterapeut      1  ...      4  4.000000
+
+[10 rows x 5 columns]
+
+Top 10 pad (yrkesgrupp) – 7d:
+                        occupation_group  start  end  delta       pct
+324  Civilingenjör, kvalitet, kemiteknik      3    0     -3 -1.000000
+325                Civilingenjör, maskin      3    0     -3 -1.000000
+326                   Renhållningsförare      4    0     -4 -1.000000
+327              Installationselektriker      6    1     -5 -0.833333
+328             HR-specialist/HR-advisor      5    0     -5 -1.000000
+329                    Telefonförsäljare     12    5     -7 -0.583333
+330            Butikssäljare, fackhandel      9    2     -7 -0.777778
+331       Systemutvecklare/Programmerare     17    5    -12 -0.705882
+332                         Mediasäljare     23    1    -22 -0.956522
+333                             Barnvakt     28    3    -25 -0.892857
+
+Top 10 rast (län) – 7d:
+              county  start  end  delta       pct
+0     Jönköpings län      6   20     14  2.333333
+1         Kalmar län      5   14      9  1.800000
+2     Stockholms län    125  134      9  0.072000
+3  Södermanlands län      5   11      6  1.200000
+4  Västerbottens län     12   18      6  0.500000
+5     Gävleborgs län      2    7      5  2.500000
+6      Värmlands län      4    8      4  1.000000
+7       Gotlands län      2    4      2  1.000000
+8       Hallands län     10   12      2  0.200000
+9       Dalarnas län     10   10      0  0.000000
+
+Top 10 pad (län) – 7d:
+                  county  start  end  delta       pct
+11          Blekinge län      8    6     -2 -0.250000
+12            Örebro län     13   11     -2 -0.153846
+13           Uppsala län     19   14     -5 -0.263158
+14       Norrbottens län     24   19     -5 -0.208333
+15         Jämtlands län     12    7     -5 -0.416667
+16      Västmanlands län     14    8     -6 -0.428571
+17     Östergötlands län     29   22     -7 -0.241379
+18             Skåne län     73   66     -7 -0.095890
+19        Kronobergs län     14    6     -8 -0.571429
+20  Västra Götalands län     91   67    -24 -0.263736
+Sparat: reports\forecast_total_next7.png
+Sparat: reports\forecast_top_occ_7d.csv
+
+Prognos – topp yrkesgrupper (summa nästa 7 d):
+                                     occupation_group  ...       pct
+1                        Sjuksköterska, grundutbildad  ... -0.135031
+9   Butikssäljare, dagligvaror/Medarbetare, daglig...  ...  0.207871
+0                                 Personlig assistent  ... -0.801116
+3                      Lagerarbetare/Terminalarbetare  ... -0.470175
+12                                           Svetsare  ... -0.529161
+4                                             Städare  ... -0.721930
+13                                  Telefonförsäljare  ... -0.987737
+11                                Personbilsmekaniker  ... -1.100758
+7                                            Barnvakt  ... -1.088835
+5                      Systemutvecklare/Programmerare  ... -1.358705
+
+[10 rows x 5 columns]
+Sparat: reports\forecast_top_occ_7d.png
+==== END 2025-09-16 10:20:03,70 ==== 
+==== START 2025-09-19 10:00:19,30 ==== 
+Init DB…
+Fetched: 500
+agg_daily rows (sample):
+('2025-09-01', 'Stockholms län', 'Data/IT', 1)
+('2025-09-01', 'Västra Götalands län', 'Vård och omsorg', 1)
+('2025-09-02', None, 'Behandlingsassistent/Socialpedagog', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Betongelementmontör', 1)
+('2025-09-02', None, 'Butikschef', 1)
+('2025-09-02', None, 'Civilingenjör, energi', 1)
+('2025-09-02', None, 'Innesäljare', 1)
+('2025-09-02', None, 'Key account manager/KAM', 1)
+('2025-09-02', None, 'Kundtjänstmedarbetare', 1)
+('2025-09-02', None, 'Marknadsförare', 1)
+('2025-09-02', None, 'Orgelbyggare', 1)
+('2025-09-02', None, 'Städare', 1)
+('2025-09-02', None, 'Ställningsbyggare', 1)
+('2025-09-02', None, 'Undersköterska, hemtjänst, äldreboende och habilitering', 1)
+('2025-09-02', None, 'Väktare', 1)
+('2025-09-02', 'Blekinge län', 'Administrativ chef', 1)
+('2025-09-02', 'Blekinge län', 'Butikssäljare, fackhandel', 1)
+('2025-09-02', 'Blekinge län', 'Enhetschef, hälso- och sjukvård', 1)
+('2025-09-02', 'Blekinge län', 'Försäljningsassistent/Säljadministratör', 1)
+('2025-09-02', 'Blekinge län', 'Specialistofficer', 1)
+('2025-09-02', 'Dalarnas län', 'Anestesisjuksköterska', 1)
+('2025-09-02', 'Dalarnas län', 'Bagare/Konditor', 1)
+('2025-09-02', 'Dalarnas län', 'Dietist', 1)
+            date  ... ad_count
+0     2025-09-01  ...        1
+1     2025-09-01  ...        1
+2     2025-09-02  ...        1
+3     2025-09-02  ...        1
+4     2025-09-02  ...        1
+...          ...  ...      ...
+3919  2025-09-19  ...        1
+3920  2025-09-19  ...        1
+3921  2025-09-19  ...        1
+3922  2025-09-19  ...        1
+3923  2025-09-19  ...        1
+
+[3924 rows x 4 columns]
+Sparat: reports\daily_total.png
+Sparat: reports\top10_occupations.png
+Sparat: reports\top10_counties.png
+Sparat: reports\heatmap_occupations_by_county.png
+
+Top 10 rast (yrkesgrupp) – 7d:
+                                    occupation_group  start  ...  delta       pct
+0                  Lärare i grundskolan, årskurs 4-6      0  ...     11  1.000000
+1                          Butikssäljare, fackhandel      2  ...     10  5.000000
+2                         Jobbcoach/Utbildningscoach      2  ...      9  4.500000
+3                               Städare/Lokalvårdare      0  ...      8  1.000000
+4                       IT-arkitekt/Lösningsarkitekt      0  ...      6  1.000000
+5                  Lärare i grundskolan, årskurs 7-9      0  ...      6  1.000000
+6                                      Lagerarbetare      0  ...      6  1.000000
+7          Undersköterska, hemtjänst och äldreboende      0  ...      6  1.000000
+8  Undersköterska, vård- och specialavdelning och...      3  ...      5  1.666667
+9                              Informationsassistent      0  ...      5  1.000000
+
+[10 rows x 5 columns]
+
+Top 10 pad (yrkesgrupp) – 7d:
+                                      occupation_group  start  ...  delta       pct
+356                                Personlig assistent     38  ...     -5 -0.131579
+357                                Personbilsmekaniker      6  ...     -6 -1.000000
+358  Undersköterska, hemtjänst, äldreboende och hab...      7  ...     -7 -1.000000
+359                                         Utesäljare      9  ...     -8 -0.888889
+360                              Abonnemangsförsäljare      8  ...     -8 -1.000000
+361  Butikssäljare, dagligvaror/Medarbetare, daglig...     14  ...     -9 -0.642857
+362                                           Svetsare      9  ...     -9 -1.000000
+363                                            Städare     10  ...    -10 -1.000000
+364                     Lagerarbetare/Terminalarbetare     14  ...    -14 -1.000000
+365                       Sjuksköterska, grundutbildad     44  ...    -33 -0.750000
+
+[10 rows x 5 columns]
+
+Top 10 rast (län) – 7d:
+                 county  start  end  delta       pct
+0      Västmanlands län      8   25     17  2.125000
+1  Västra Götalands län     67   79     12  0.179104
+2            Örebro län     11   17      6  0.545455
+3           Uppsala län     14   19      5  0.357143
+4        Jönköpings län     20   24      4  0.200000
+5         Värmlands län      8   12      4  0.500000
+6          Dalarnas län     10   12      2  0.200000
+7   Västernorrlands län     13   15      2  0.153846
+8     Östergötlands län     22   24      2  0.090909
+9            Kalmar län     14   15      1  0.071429
+
+Top 10 pad (län) – 7d:
+               county  start  end  delta       pct
+11  Södermanlands län     11   11      0  0.000000
+12     Gävleborgs län      7    6     -1 -0.142857
+13    Norrbottens län     19   18     -1 -0.052632
+14       Blekinge län      6    4     -2 -0.333333
+15     Kronobergs län      6    4     -2 -0.333333
+16       Hallands län     12    9     -3 -0.250000
+17      Jämtlands län      7    3     -4 -0.571429
+18  Västerbottens län     18   14     -4 -0.222222
+19     Stockholms län    134  126     -8 -0.059701
+20          Skåne län     66   47    -19 -0.287879
+Sparat: reports\forecast_total_next7.png
+Sparat: reports\forecast_top_occ_7d.csv
+
+Prognos – topp yrkesgrupper (summa nästa 7 d):
+                                     occupation_group  ...       pct
+0                                 Personlig assistent  ... -0.526306
+1                        Sjuksköterska, grundutbildad  ... -0.568096
+8   Butikssäljare, dagligvaror/Medarbetare, daglig...  ... -0.198538
+9                      Lagerarbetare/Terminalarbetare  ... -0.470175
+5                                   Telefonförsäljare  ... -0.386139
+14  Undersköterska, vård- och specialavdelning och...  ... -0.226163
+10  Handläggare, offentlig förvaltning/Utredare, o...  ... -0.447569
+4                                             Städare  ... -0.721930
+11                                        Innesäljare  ... -0.824219
+7                                            Barnvakt  ... -1.088835
+
+[10 rows x 5 columns]
+Sparat: reports\forecast_top_occ_7d.png
+==== END 2025-09-19 10:00:49,17 ==== 
+==== START 2025-09-21  9:22:12,33 ==== 
+^C
