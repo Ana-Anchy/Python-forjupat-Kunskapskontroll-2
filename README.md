@@ -68,6 +68,7 @@ The process automates data ingestion, transformation, storage in **SQLite**, and
 **Total ads over time with forecast:**  
 ![Total ads over time with forecast](reports/forecast_total_next7.png)
 
+
 **Top-10 occupational groups:**  
 ![Top-10 occupational groups](reports/top10_occupations.png)
 
